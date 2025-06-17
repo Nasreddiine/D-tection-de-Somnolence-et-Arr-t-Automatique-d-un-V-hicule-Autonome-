@@ -62,8 +62,8 @@ Le système analyse 20 images consécutives, et si le ratio d’aspect de l’œ
 ![Exemple de détection de somnolence sur un conducteur](Docs/drowsy.JPG)
 
 ### Améliorations Futures
-- **Intégration de Capteurs Supplémentaires** : Utiliser des capteurs de fréquence cardiaque ou de mouvement pour améliorer la détection de la fatigue.
+- **Intégration de Capteurs Supplémentaires** : Utilisation des capteurs de fréquence cardiaque ou de mouvement pour améliorer la détection de la fatigue.
 
-- **Interface Utilisateur Graphique** : Développer une interface pour afficher les statistiques en temps réel.
+- **Interface Utilisateur Graphique** : Développement d'une interface pour afficher les statistiques en temps réel.
 
-- **Amélioration des Performances** : Optimiser le script Python pour une exécution plus fluide sur Raspberry Pi.
+- **Amélioration des Performances** : Optimisation du script Python pour une exécution plus fluide sur Raspberry Pi.
