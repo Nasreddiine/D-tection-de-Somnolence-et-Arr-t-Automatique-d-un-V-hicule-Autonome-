@@ -55,11 +55,11 @@ Téléversez le code sur l'Arduino.
 Chaque œil est représenté par 6 points (x, y), en commençant par le coin externe gauche de l’œil (comme si on regardait la personne en face), puis en suivant le contour de l’œil dans le sens horaire.
 Le système analyse 20 images consécutives, et si le ratio d’aspect de l’œil (Eye Aspect Ratio) est inférieur à 0,25, une alarme est déclenchée.
 
-(./Docs/eye1.jpg)
-(./Docs/eye2.png)
+![Repérage des 6 points clés pour l'analyse oculaire](Docs/eye1.jpg)
+![Formule de calcul du Eye Aspect Ratio](Docs/eye2.png)
 
 ### Résultat
-(./Docs/drowsy.JPG)
+![Exemple de détection de somnolence sur un conducteur](Docs/drowsy.JPG)
 
 ### Améliorations Futures
 - **Intégration de Capteurs Supplémentaires** : Utiliser des capteurs de fréquence cardiaque ou de mouvement pour améliorer la détection de la fatigue.
