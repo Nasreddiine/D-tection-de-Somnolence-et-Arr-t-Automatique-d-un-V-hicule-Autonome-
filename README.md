@@ -6,16 +6,14 @@ Ce projet vise à détecter la somnolence et le bâillement du conducteur en tem
 (./Docs/circuit.jpg)
 ### Project Structure 
 ├── Docs/
-
-|   ├── circuit.jpg               
-    └── drowsy.jpeg               
+│   ├── circuit.jpg               
+│   └── drowsy.jpeg               
 ├── Models/
-
-|   ├── haarcascade_frontalface_default.xml    
-    └── shape_predictor_68_face_landmarks.dat  
+│   ├── haarcascade_frontalface_default.xml    
+│   └── shape_predictor_68_face_landmarks.dat  
 ├── Drowsiness_Detection.py        
 ├── mvvoiture.ino                  
-└── README.md                  
+└── README.md                   
 
 ### Fonctionnalités Principales
 [Caméra] → 
