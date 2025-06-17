@@ -5,6 +5,7 @@ Ce projet vise à détecter la somnolence et le bâillement du conducteur en tem
 
 (./Docs/circuit.jpg)
 ### Project Structure 
+```
 ├── Docs/
 
 │   ├── circuit.jpg               
@@ -16,7 +17,7 @@ Ce projet vise à détecter la somnolence et le bâillement du conducteur en tem
 ├── Drowsiness_Detection.py        
 ├── mvvoiture.ino                  
 └── README.md                   
-
+```
 ### Fonctionnalités Principales
 [Caméra] → 
     ├─[Analyse Yeux (EAR), Analyse Lèvres] → [Détection Somnolence] → [Alarme] → [Arrêt Véhicule]
@@ -31,15 +32,16 @@ Ce guide explique comment installer et utiliser le système de détection de som
 
 ## Installer les bibliothèques Python nécessaires :
 
+```
 pip install opencv-python imutils dlib picamera2 serial
-
+```
 ## Exécution du Script Python
 Branchez la caméra Pi et assurez-vous qu'elle est détectée.
 
 Exécutez le script de détection :
-
+```
 python Drowsiness_Detection.py
-
+```
 Appuyez sur q pour quitter le programme.
 
 ## Téléversement du Code Arduino
