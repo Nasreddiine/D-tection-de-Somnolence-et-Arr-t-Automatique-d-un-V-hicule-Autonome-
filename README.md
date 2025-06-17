@@ -3,7 +3,7 @@
 ### Aperçu du Projet
 Ce projet vise à détecter la somnolence et le bâillement du conducteur en temps réel à l'aide d'une caméra et d'un système de vision par ordinateur. Lorsqu'un état de somnolence ou un bâillement est détecté, le système déclenche une alarme et arrête automatiquement le véhicule après avec décélération progressive pour assurer la sécurité.
 
-(./Docs/circuit.jpg)
+![Schéma de connexion du circuit électronique](Docs/circuit.jpg)
 ### Project Structure 
 ```
 ├── Docs/
