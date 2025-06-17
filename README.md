@@ -27,13 +27,13 @@ Ce projet vise à détecter la somnolence et le bâillement du conducteur en tem
 
 Ce guide explique comment installer et utiliser le système de détection de somnolence. Après avoir branché la caméra Raspberry Pi et l'Arduino, installez les librairies Python nécessaires (opencv, dlib). Exécutez ensuite le script Python : il analysera en temps réel les yeux et la bouche du conducteur. En cas de somnolence détectée, une alarme se déclenche et un signal est envoyé à l'Arduino pour stopper le véhicule. Un bouton d'urgence permet aussi d'arrêter manuellement le système.
 
-#### Prérequis
+### Prérequis
 
-# Installer les bibliothèques Python nécessaires :
+## Installer les bibliothèques Python nécessaires :
 
 pip install opencv-python imutils dlib picamera2 serial
 
-# Exécution du Script Python
+## Exécution du Script Python
 Branchez la caméra Pi et assurez-vous qu'elle est détectée.
 
 Exécutez le script de détection :
@@ -42,7 +42,7 @@ python Drowsiness_Detection.py
 
 Appuyez sur q pour quitter le programme.
 
-# Téléversement du Code Arduino
+## Téléversement du Code Arduino
 Ouvrez le fichier mvvoiture.ino dans l'IDE Arduino.
 
 Sélectionnez la carte Arduino et le port approprié.
